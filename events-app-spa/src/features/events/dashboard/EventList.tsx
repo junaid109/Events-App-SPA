@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button, Item, Label, Segment } from "semantic-ui-react"
-import { IEvent } from '../../../models/event';
+import { Event } from '../../../models/event';
 
 interface Props {
-    events: IEvent[];
+    events: Event[];
     selectEvent: (id: string) => void;
 }
 

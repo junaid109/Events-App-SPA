@@ -1,7 +1,12 @@
 import React from 'react';
 import { Button, Form, Segment } from "semantic-ui-react";
 
-export default function EventForm() {
+interface Props {
+  events: Event | undefined;
+  closeForm: () => void;
+}
+
+export default function EventForm({events, closeForm} : Props)  {
   return (
     <Segment clearing>
         <Form>
