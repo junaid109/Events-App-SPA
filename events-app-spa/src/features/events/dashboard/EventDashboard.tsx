@@ -36,7 +36,7 @@ export default function EventDashboard({
                 openForm={openForm}
                 /> }
                 {editMode &&
-                <EventForm closeForm={closeForm} event={selectedEvent}></EventForm>}
+                <EventForm closeForm={closeForm} events={selectedEvent}></EventForm>}
             </Grid.Column>
         </Grid>
     )
