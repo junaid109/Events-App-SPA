@@ -7,3 +7,4 @@ export interface Event {
     city: string;
     venue: string;
 }
+//# sourceMappingURL=event.js.map

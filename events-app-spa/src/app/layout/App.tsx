@@ -53,10 +53,11 @@ const App = () => {
       events={events} 
       selectedEvent={selectedEvent} 
       selectEvent={handleSelectEvent} 
-      cancelSelectEvent={handleCancelEvent}/> }
+      cancelSelectEvent={handleCancelEvent}
       editMode = {editMode}
       openForm={handleFormOpen}
-      closeForm={handleFormClose}
+      closeForm={handleFormClose}/> 
+    }
       </Container>
 
     </Fragment>
